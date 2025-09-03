@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 - **Multi-Level PUF Analysis**  
   Designed a **64-dimensional feature map** (via Khatri-Rao product) and trained linear classifiers on **6.4K train / 1.6K test CRPs**, achieving **97% accuracy** with Logistic Regression and outperforming Linear SVM (~93%).  
 
@@ -16,14 +16,14 @@
 
 ---
 
-## 🔑 Key Results
+## Key Results
 - Logistic Regression (L2, C=140): **97% accuracy**  
 - Linear SVM (L2, C=100): **~93% accuracy**  
 - Delay recovery method reconstructs consistent delay vectors from linear model coefficients.  
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 - **Python 3**  
 - **NumPy**  
 - **scikit-learn** (`LogisticRegression`, `LinearSVC`)  
